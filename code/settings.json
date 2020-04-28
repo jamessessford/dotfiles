@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    /**
+    * Kill the noise
+    **/
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "workbench.iconTheme": null,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Palenight Theme",
+    "workbench.startupEditor": "newUntitledFile"
+}
