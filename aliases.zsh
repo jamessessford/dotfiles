@@ -17,6 +17,13 @@ alias art="php artisan"
 alias amf="art migrate:fresh"
 alias amd="amf db:seed"
 
+#   JIGSAW ALIASES
+alias jigsaw="./vendor/bin/jigsaw"
+alias jbl="jigsaw build local"
+alias jbp="jigsaw build production"
+alias njbl="npm run local && jbl"
+alias njbp="npm run prod && jbp"
+
 #   USEFUL ALIASES
 alias uau="sudo apt-get update && sudo apt-get upgrade -y"
 alias cls="clear"
