@@ -21,6 +21,7 @@ alias amd="amf db:seed"
 alias jigsaw="./vendor/bin/jigsaw"
 alias jbl="jigsaw build local"
 alias jbp="jigsaw build production"
+alias jb="jbl && jbp"
 alias njbl="npm run local && jbl"
 alias njbp="npm run production && jbp"
 
