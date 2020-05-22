@@ -19,6 +19,10 @@
         "key": "ctrl+k ctrl+x",
         "command": "workbench.extensions.action.showInstalledExtensions"
     },
+    {
+        "key": "ctrl+k ctrl+t",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
     /**
     * File Explorer
     **/
@@ -41,5 +45,20 @@
         "key": "ctrl+r",
         "command": "workbench.files.action.refreshFilesExplorer",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    /**
+    * MJML
+    **/
+    {
+        "key": "ctrl+k ctrl+x",
+        "command": "mjml.exportHTML",
+        "when": "editorFocus && editorLangId == mjml"
+    },
+    /**
+    * Terminal Goodness
+    **/
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
     }
 ]
