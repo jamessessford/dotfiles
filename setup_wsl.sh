@@ -12,7 +12,7 @@ git config --global core.excludesFile $HOME/.dotfiles/.gitignore_global
 rm -rf /mnt/c/Users/James/AppData/Roaming/Code/User/settings.json
 rm -rf /mnt/c/Users/James/AppData/Roaming/Code/User/keybindings.json
 
-ln -s $HOME/.dotfiles/code/settings.json /mnt/c/Users/James/AppData/Roaming/Code/User/settings.json
-ln -s $HOME/.dotfiles/code/keybindings.json /mnt/c/Users/James/AppData/Roaming/Code/User/keybindings.json
+cp $HOME/.dotfiles/code/settings.json /mnt/c/Users/James/AppData/Roaming/Code/User/settings.json
+cp $HOME/.dotfiles/code/keybindings.json /mnt/c/Users/James/AppData/Roaming/Code/User/keybindings.json
 
 echo "Close this shell and reopen..."
