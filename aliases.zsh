@@ -31,5 +31,5 @@ alias uau="sudo apt-get update && sudo apt-get upgrade -y"
 alias cls="clear"
 
 #   ZSH ALIASES
-alias ec="$EDITOR $HOME/.zshrc"
+alias ec="nano $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
