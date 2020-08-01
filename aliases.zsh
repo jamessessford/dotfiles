@@ -26,5 +26,10 @@ alias njbl="npm run local && jbl"
 alias njbp="npm run production && jbp"
 
 #   USEFUL ALIASES
+alias myip="curl http://ipecho.net/plain; echo"
 alias uau="sudo apt-get update && sudo apt-get upgrade -y"
 alias cls="clear"
+
+#   ZSH ALIASES
+alias ec="nano $HOME/.zshrc"
+alias sc="source $HOME/.zshrc"

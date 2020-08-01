@@ -14,7 +14,6 @@ if [[ "$agent" == "" || ! -e ~/.ssh/.agent_env ]]; then
     eval `ssh-agent`
 
     /usr/bin/ssh-add
-    /usr/bin/ssh-add ~/.ssh/cex
 
     echo 'export SSH_AUTH_SOCK'=$SSH_AUTH_SOCK >> ~/.ssh/.agent_env
 
