@@ -17,7 +17,7 @@ ZSH_THEME="candy"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "bira" "bureau", "candy", "crunch", "dst", "eastwood", "frisk", "gallois", "gnzh", "half-life" )
+ZSH_THEME_RANDOM_CANDIDATES=( "bira" "bureau" "candy" "crunch" "dst" "eastwood" "frisk" "gallois" "gnzh" "half-life" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
