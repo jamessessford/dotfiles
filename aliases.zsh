@@ -35,3 +35,4 @@ alias ec="nano $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
 
 alias lla="ls -l -a | lolcat"
+alias bat="batcat "
