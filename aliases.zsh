@@ -13,7 +13,7 @@ alias wip="git add . && git commit -m 'wip'"
 alias bfc="wip && gp"
 
 #   LARAVEL ALIASES
-alias art="php artisan"
+alias art="artisan"
 alias amf="art migrate:fresh"
 alias amd="amf db:seed"
 
