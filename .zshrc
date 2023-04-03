@@ -62,6 +62,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "bira" "bureau" "candy" "crunch" "dst" "eastwood" 
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
+HISTORY_IGNORE="(ls|cd|cd -|pwd|exit|date|* --help|cls|clear|code .|sc|ec)"
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES
