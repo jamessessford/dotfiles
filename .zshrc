@@ -63,6 +63,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "bira" "bureau" "candy" "crunch" "dst" "eastwood" 
 # see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
 HISTORY_IGNORE="(ls|cd|cd -|pwd|exit|date|* --help|cls|clear|code .|sc|ec|gs)"
+ZSH_AUTOSUGGEST_MANUAL_REBIND=yes
 
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=$DOTFILES
