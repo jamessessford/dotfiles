@@ -36,3 +36,5 @@ alias sc="source $HOME/.zshrc"
 
 alias lla="ls -l -a | lolcat"
 alias bat="batcat "
+
+alias ss="~/.dotfiles/start_services.sh";
