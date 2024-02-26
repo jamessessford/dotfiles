@@ -29,6 +29,8 @@ alias njbp="npm run production && jbp"
 alias myip="curl http://ipecho.net/plain; echo"
 alias uau="sudo apt-get update && sudo apt-get upgrade -y"
 alias cls="clear && clear"
+alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 
 #   ZSH ALIASES
 alias ec="nano $HOME/.zshrc"
