@@ -5,6 +5,7 @@ add_to_path() {
   fi
 }
 
+add_to_path "/usr/local/sbin"
 add_to_path "$HOME/.composer/vendor/bin"
 add_to_path "$HOME/.nvm/versions/node/v17.3.0/bin"
 add_to_path "$HOME/go/bin"

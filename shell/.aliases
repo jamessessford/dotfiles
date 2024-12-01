@@ -10,6 +10,7 @@ alias bfc="wip && gp"
 alias stash="git stash -u"
 alias pop="git stash pop"
 alias uncommit="git reset --soft HEAD~1"
+alias main='git checkout $([ `git rev-parse --quiet --verify master` ] && echo "master" || echo "main")'
 
 # Directories
 alias dotfiles="cd $DOTFILES"
@@ -36,6 +37,9 @@ alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias art="artisan"
 alias amf="art migrate:fresh"
 alias amd="amf db:seed"
+alias sqlit="sed -e 's/\(DB_.*\)/# \\1/g' -e 's/# \(DB_CONNECTION=\).*/\\1sqlite/g' -i .env"
+alias lenv="cp -n .env.example .env && (grep '^APP_KEY=.\+' .env > /dev/null || artisan key:generate)"
+alias laravel-setup="composer install && lenv && sqlit && artisan migrate --force --seed"
 
 #   USEFUL ALIASES
 alias myip="curl http://ipecho.net/plain; echo"
@@ -46,6 +50,7 @@ alias buu="brew update && brew upgrade"
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 alias zz="z "
+alias cat="bat"
 
 #   ZSH ALIASES
 alias ec="nano $HOME/.zshrc"
