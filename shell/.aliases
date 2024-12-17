@@ -52,6 +52,7 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 alias zz="z "
 alias cat="bat"
+alias takeout="docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -it tighten/takeout:latest"
 
 #   ZSH ALIASES
 alias ec="nano $HOME/.zshrc"
