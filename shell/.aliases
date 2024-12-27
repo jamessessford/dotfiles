@@ -41,6 +41,7 @@ alias sqlit="sed -e 's/\(DB_.*\)/# \\1/g' -e 's/# \(DB_CONNECTION=\).*/\\1sqlite
 alias lenv="cp -n .env.example .env && (grep '^APP_KEY=.\+' .env > /dev/null || artisan key:generate)"
 alias laravel-setup="composer install && lenv && sqlit && artisan migrate --force --seed"
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+alias pint='vendor/bin/pint'
 
 #   USEFUL ALIASES
 alias myip="curl http://ipecho.net/plain; echo"
